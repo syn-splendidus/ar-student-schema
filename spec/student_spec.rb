@@ -16,6 +16,7 @@ describe Student, "#name and #age" do
       :gender => 'male',
       :birthday => Date.new(1970,9,1)
     )
+    p @student
   end
 
   it "should have name and age methods" do
